@@ -14,13 +14,11 @@ const theme = createTheme({
 function App() {
   return (
     <MantineProvider theme={theme}>
-      <div className="max-w-[1440px]">
-        <Sidebar />
-        <Header />
-        <Card />
-        <BarCard />
-        <ProBar />
-      </div>
+      <Sidebar />
+      <Header />
+      <Card />
+      <BarCard />
+      <ProBar />
     </MantineProvider>
   );
 }
